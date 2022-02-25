@@ -103,22 +103,22 @@ Control Flow and Collection Types (65–93)
 Working with Classes, Structs, and OOP (94–119)
 
 - Classes
-	- [ ] ✏️ Explain the difference between reference and value type variables: **??**
-	- [ ] Create Assets/Scripts/Character.cs
-		- [ ] Create a `Character` class
-		- [ ] Create `string` and `int` fields inside the Character class
-		- [ ] Create a `Character()` constructor and populate the above fields with its parameters
-	- [ ] Update Assets/Scripts/LearningCurve.cs
-		- [ ] Instantiate two new Character objects `hero` and `heroine` from the `Character` class
-		- [ ] Print out each characters data
-- [ ] Structs
-	- [ ] Update Assets/Scripts/Character.cs
-		- [ ] Add a `Weapon` struct
-		- [ ] Create `string` and `int` fields inside the Weapon struct
-		- [ ] Create a `Weapon()` constructor and populate the above fields with its parameters
-	- [ ] Update Assets/Scripts/LearningCurve.cs
-		- [ ] Instantiate two new Weapon objects `huntingBow` and `warBow` from the `Weapon` struct
-		- [ ] Print out each weapons' data
+	- [ ] ✏️ Explain the difference between reference and value type variables: **Reference types hold the address for the information and value types hold the actual value (Nodes in LinkedLists are the best example because they contain a .value which is the value and a .next which is the reference/address to the next value is in the list so you can see the difference in the 2 types of information being stored)**
+	- [x] Create Assets/Scripts/Character.cs
+		- [x] Create a `Character` class
+		- [x] Create `string` and `int` fields inside the Character class
+		- [x] Create a `Character()` constructor and populate the above fields with its parameters
+	- [x] Update Assets/Scripts/LearningCurve.cs
+		- [x] Instantiate two new Character objects `hero` and `heroine` from the `Character` class
+		- [x] Print out each characters data
+- [x] Structs
+	- [x] Update Assets/Scripts/Character.cs
+		- [x] Add a `Weapon` struct
+		- [x] Create `string` and `int` fields inside the Weapon struct
+		- [x] Create a `Weapon()` constructor and populate the above fields with its parameters
+	- [x] Update Assets/Scripts/LearningCurve.cs
+		- [x] Instantiate two new Weapon objects `huntingBow` and `warBow` from the `Weapon` struct
+		- [x] Print out each weapons' data
 - Child classes
 	- [ ] Update Assets/Scripts/Character.cs
 		- [ ] Add a `Paladin` child class of `Character`
